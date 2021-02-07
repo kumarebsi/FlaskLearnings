@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}{{ user }}'s Page{% endblock %}
+{% block bodycontent %}
+	<h1>
+		<b>
+			{{ user }}
+		</b>
+	</h1>
+	<div>
+		<form name="out" method="post">
+			<button type="submit" class="btn btn-outline-success my-2 my-sm-0">Logout</button>
+		</form>		
+	</div>
+{% endblock %}
